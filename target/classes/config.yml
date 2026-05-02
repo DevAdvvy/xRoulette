@@ -1,0 +1,39 @@
+#
+#        xRoulette - v1.0
+#       Made for DevAdvvy
+#
+# GITHUB: https://github.com/DevAdvvy
+
+# MULTIPLIERS FOR ANY COLOR
+multipliers:
+  red: 2.0
+  black: 2.0
+  green: 14.0
+
+# MATERIAL FOR COLORS (Example: RED_CONCRETE, REDSTONE_BLOCK, ...)
+colors:
+  red: RED_STAINED_GLASS_PANE
+  black: BLACK_STAINED_GLASS_PANE
+  green: LIME_STAINED_GLASS_PANE
+
+# ROULETTE BET
+roulette:
+  min-bet: 10000
+  max-bet: 450000
+
+  chances:
+    red: 48
+    black: 48
+    green: 4
+
+# WINNER ROULETTE MIN BET
+Broadcast:
+  Enabled: true
+  MinAmount: 800000
+  Message:
+    - ""
+    - "[center] &#FF2F2F&l¡GRAN VICTORIA EN RULETA!"
+    - ""
+    - "[center] &#f0f0f0El jugador &#20914C%player% &#f0f0f0ha ganado en la ruleta"
+    - "[center] &#f0f0f0Llevándose &#FF2F2F$%amount%&#f0f0f0 apostando al &#FF2F2F%color%"
+    - ""

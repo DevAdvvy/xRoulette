@@ -1,0 +1,15 @@
+com\xroulette\listener\ChatListener.class
+com\xroulette\input\ChatInputManager.class
+com\xroulette\gui\MainGUI.class
+com\xroulette\listener\InventoryListener.class
+com\xroulette\util\ItemBuilder.class
+com\xroulette\config\ConfigManager.class
+com\xroulette\game\RouletteManager.class
+com\xroulette\XRoulette.class
+com\xroulette\game\RouletteAnimation$1.class
+com\xroulette\util\TextUtil.class
+com\xroulette\economy\EconomyManager.class
+com\xroulette\util\DefaultFontInfo.class
+com\xroulette\util\MoneyParser.class
+com\xroulette\command\RouletteCommand.class
+com\xroulette\game\RouletteAnimation.class
